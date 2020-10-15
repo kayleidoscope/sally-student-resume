@@ -1,0 +1,35 @@
+#header-group {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.header-item {
+    width: 50%;
+    flex: 1;
+}
+
+img {
+    width: 90%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#intro {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.chunk {
+    border: 5px solid;
+    margin: 5%;
+}
+
+@media all and (min-width: 600px) {
+    #header-group {
+        width: 600px;
+    }
+}
